@@ -2,9 +2,9 @@ name: Link CI
 
 on:
   push:
-    branches: [master]
+    branches: [dev/ci_check]
   pull_request:
-    branches: [master]
+    branches: [dev/ci_check]
 
 jobs:
   macos:
